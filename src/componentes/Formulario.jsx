@@ -4,7 +4,7 @@ import { Button, Form } from "react-bootstrap";
 import Swal from "sweetalert2";
 
 const Formulario = () => {
-  const URL = "http://localhost:9000/crear";
+  const URL = "http://finalappback-production.up.railway.app/crear";
 
   const [inputs, setInputs] = useState({
     nombre: "",
