@@ -9,8 +9,8 @@ function Footer() {
             <Link href="/" className="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-light text-decoration-none">
             </Link>
             <Nav className="justify-content-end fs-6">
-                <Link className='nav-link' to="articulos">Articulos</Link>
-                <Link className='nav-link' to="recomendado">Recomendado</Link>
+                <Link className='nav-link' to="articulos">Premios</Link>
+                <Link className='nav-link' to="recomendado">Anotado</Link>
                 <Link className='nav-link' to="formulario">Formulario</Link>
             </Nav>
             
