@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 
 const Formulario = () => {
 
-  const URL = "http://finalappback-production.up.railway.app/";
+  const URL = "http://finalappback-production.up.railway.app/crear";
 
   const [inputs, setInputs] = useState({
     nombre: "",
@@ -21,7 +21,7 @@ const Formulario = () => {
   };
 
   const handleClick = async () => {
-    await axios.post(`${URL}crear`, inputs);
+    await axios.post(URL, inputs);
     setInputs({
       nombre: "",
       apellido: "",
