@@ -21,7 +21,7 @@ const Formulario = () => {
   };
 
   const handleClick = async () => {
-    await axios.post(URL+'crear', inputs);
+    await axios.post(`${URL}crear`, inputs);
     setInputs({
       nombre: "",
       apellido: "",
