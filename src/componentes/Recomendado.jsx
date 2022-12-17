@@ -7,7 +7,7 @@
 
     const [personas, setPersonas] = useState([]);
 
-    const URL = "http://https://finalappback-production.up.railway.app/";
+    const URL = "http://https://finalappback-production.up.railway.app";
 
     const getPersonas = async () => {
         try {
