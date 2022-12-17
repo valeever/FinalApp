@@ -7,7 +7,7 @@
 
     const [personas, setPersonas] = useState([]);
 
-    const URL = "http://localhost:9000/";
+    const URL = "http://https://finalappback-production.up.railway.app";
 
     const getPersonas = async () => {
         try {
